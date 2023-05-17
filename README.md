@@ -52,6 +52,7 @@ chatglm的api服务器部署
 
 成功运行chatglm项目内api.py文件即可
 
+在确保chatglm服务器与paddlespeech的ASR，TTS服务器都在正常监听后运行hecheng。py文件即可进行实时对话
 
 
 
