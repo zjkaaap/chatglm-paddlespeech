@@ -57,7 +57,7 @@ paddlespeech_server start --config_file ./demos/streaming_tts_server/conf/tts_on
 
 chatglm的api服务器部署
 --
-首先进入环境conda activate paddle
+首先进入环境conda activate chatglm
 
 然后详情请见https://github.com/THUDM/ChatGLM-6B
 
