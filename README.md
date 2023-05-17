@@ -1,5 +1,5 @@
 
-chatglm+paddlespeech实现实时对话功能（可在服务器部署）
+chatglm+paddlespeech实现对话功能（可在服务器部署）
 ========
 此项目首先搭建chatglm项目api服务器与paddlespecch项目的流式ASR服务器，流式 TTS服务器，随后通过与这些服务器进行交互实现实时语音对话功能，并可在服务器端部署来实现多人对话。
 
@@ -58,6 +58,17 @@ chatglm的api服务器部署
 
 实现对话功能
 --
+
+在这之前要确保chatglm服务器与paddlespeech的ASR，TTS服务器都在正常监听后运行下列代码即可进行对话
+
+git clone https://github.com/zjkaaap/chatglm-paddlespeech.git
+
+cd chatglm-paddlespeech
+
+pip install requirements.txt
+
+python hecheng.py
+
 在确保chatglm服务器与paddlespeech的ASR，TTS服务器都在正常监听后运行hecheng.py文件即可进行实时对话
 
 
