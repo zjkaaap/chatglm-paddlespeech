@@ -63,7 +63,7 @@ chatglm的api服务器部署
 
 git clone https://github.com/zjkaaap/chatglm-paddlespeech.git
 
-cd chatglm-paddlespeech
+cd chatglm-paddlespeech-main
 
 pip install requirements.txt
 
