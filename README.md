@@ -1,2 +1,11 @@
 # zjk
 chatglm+paddlespeech实现实时对话功能（可在服务器部署）
+
+此项目首先搭建chatglm项目api服务器与paddlespecch项目的流式ASR服务器，流式 TTS服务器，随后通过与这些服务器进行交互实现实时语音对话功能，并可在服务器端部署来实现多人对话。
+
+安装
+
+建议在linux系统下部署，python3.7版本以上
+建议chatglm与paddlespeech在不同conda环境部署（chatglm使用pytorch，paddlespeech使用的是paddle）
+
+paddlespeech服务器部署
