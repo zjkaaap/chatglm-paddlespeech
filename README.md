@@ -44,6 +44,9 @@ paddlespeech_server start --config_file ./demos/streaming_asr_server/conf/applic
 
 paddlespeech_server start --config_file ./demos/streaming_tts_server/conf/tts_online_application.yaml
 
+详情请见https://github.com/PaddlePaddle/PaddleSpeech/blob/develop/README_cn.md
+
+
 chatglm的api服务器部署
 
 详情请见https://github.com/THUDM/ChatGLM-6B
@@ -52,11 +55,13 @@ chatglm的api服务器部署
 
 成功运行chatglm项目内api.py文件即可
 
+实现对话功能
+
 在确保chatglm服务器与paddlespeech的ASR，TTS服务器都在正常监听后运行hecheng。py文件即可进行实时对话
 
 
 
-详情请见https://github.com/PaddlePaddle/PaddleSpeech/blob/develop/README_cn.md
+
 
 
 
